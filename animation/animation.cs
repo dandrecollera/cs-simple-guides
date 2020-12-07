@@ -23,6 +23,7 @@ namespace animations
                 Task.Delay(50).Wait();
             }
             Console.Write(" OK!");
+            Console.ReadKey();
         }
     }
 }
