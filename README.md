@@ -1,10 +1,10 @@
 # cs-simple-guides
 Compilation of C# guides, from simple algorithms and designs for C# Console App.
 
-## List of Guides
-1. [C# Patterns](https://github.com/dandrecollera/cs-simple-guides#c-patterns)
-2. [Password Masking](https://github.com/dandrecollera/cs-simple-guides#password-masking)
-3. [Simple Loading Animations](https://github.com/dandrecollera/cs-simple-guides#simple-loading-animations)
+List of Guides
+  1. [C# Patterns](https://github.com/dandrecollera/cs-simple-guides#c-patterns)
+  2. [Password Masking](https://github.com/dandrecollera/cs-simple-guides#password-masking)
+  3. [Simple Loading Animations](https://github.com/dandrecollera/cs-simple-guides#simple-loading-animations)
 
 # C# Patterns
 Create C# Pattern using for loop.
