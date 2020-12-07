@@ -5,6 +5,7 @@ List of Guides
   1. [C# Patterns](https://github.com/dandrecollera/cs-simple-guides#c-patterns)
   2. [Password Masking](https://github.com/dandrecollera/cs-simple-guides#password-masking)
   3. [Simple Loading Animations](https://github.com/dandrecollera/cs-simple-guides#simple-loading-animations)
+  4. [Simple Yes or No Loop](https://github.com/dandrecollera/cs-simple-guides#simple-yes-or-no-loop)
 
 # C# Patterns
 Create C# Pattern using for loop.
@@ -321,5 +322,36 @@ static void Main(string[] args)
 / (clear)
 - (clear)
 \ (clear)
+```
+
+# Simple Yes or No Loop
+Simple structure for yes or no prompt using while loop
+
+```cs
+static void Main(string[] args)
+{
+    char decision = 'Z'; //Set Default to Z
+    while(decision != 'N')
+    {
+        //code here
+
+        Console.Write("Would you like to try again? Y/N: ");
+        decision = Char.ToUpper(Convert.ToChar(Console.ReadLine()));
+        if(decision == 'Y')
+        {
+            Console.WriteLine("Trying Again.");
+            continue;
+        }
+        else if(decision == 'N')
+        {
+            decision = 'N';
+        }
+        else
+        {
+            Console.WriteLine("Invalid Input");
+            continue;
+        }
+    }
+}
 ```
 ##### Created by: Dandre Collera
