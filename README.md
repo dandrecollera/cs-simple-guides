@@ -276,9 +276,8 @@ public string ReadPassword()
 # Simple Loading Animations
 Spice things up in your C# Console Application using loading animations.
 
-## Patterns Included
+## Animations Included
 - [Loading Bar](https://github.com/dandrecollera/cs-simple-guides#loading-bar)
-- [Spinning Line](https://github.com/dandrecollera/cs-simple-guides#spinning-line)
 
 ## Loading Bar
 ```cs
