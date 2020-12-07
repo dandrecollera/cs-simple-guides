@@ -298,32 +298,6 @@ static void Main(string[] args)
 LOADING: ▀▀▀▀▀▀▀▀▀▀▀ OK!
 ```
 
-## Spinning Line
-```cs
-static void Main(string[] args)
-{
-    string[] load = new string[4] {"|", "/", "-", @"\"};
-    int y = 0;
-    for(int x = 0; x < load.Length * 2; x++)
-    {
-        Console.Clear();
-        Console.WriteLine(load[y]);
-        y++;
-        Task.Delay(100).Wait();
-        if(y == 4)
-        {
-            y = 0;
-        }
-    }
-}
-```
-```
-| (clear)
-/ (clear)
-- (clear)
-\ (clear)
-```
-
 # Simple Yes or No Loop
 Simple structure for yes or no prompt using while loop
 
