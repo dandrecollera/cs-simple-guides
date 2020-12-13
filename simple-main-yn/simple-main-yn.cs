@@ -1,5 +1,10 @@
 /*
-* Simple YN Snippet
+* This Application is Created by:
+* Dandre Mitchel R. Collera
+* github.com/xAzurine
+*
+* Simple Yes or No snippet
+* C# Console App (.NET Framework)
 */
 
 using System;

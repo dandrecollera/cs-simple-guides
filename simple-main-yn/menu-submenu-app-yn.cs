@@ -1,3 +1,11 @@
+/*
+* This Application is Created by:
+* Dandre Mitchel R. Collera
+* github.com/xAzurine
+*
+* Simple menu to submenu snippet
+* C# Console App (.NET Framework)
+*/
 using System;
 
 namespace randomz
