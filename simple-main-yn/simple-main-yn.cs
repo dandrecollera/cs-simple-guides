@@ -1,3 +1,7 @@
+/*
+* Simple YN Snippet
+*/
+
 using System;
 
 namespace randomz
