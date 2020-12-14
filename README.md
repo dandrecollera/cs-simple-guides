@@ -327,5 +327,3 @@ static void Main(string[] args)
     }
 }
 ```
-##### Created by: Dandre Collera
-##### For Educational Purposes Only
